@@ -1,0 +1,214 @@
+{
+  "loader": {
+    "message": "CARGANDO RECURSOS..."
+  },
+  "nav": {
+    "home": "Inicio",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "education": "Educación",
+    "contact-me": "Contáctame"
+  },
+  "hero": {
+    "status": "DISPONIBLE PARA OPORTUNIDADES",
+    "greeting": "Mi nombre es",
+    "subtitle1": "Estudiante de Ingeniería de Software - UPC",
+    "subtitle2": "Desarrollador Web, Desarrollador Móvil"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "filters": {
+      "all": "Todos",
+      "languages": "Lenguajes",
+      "databases": "Base de Datos",
+      "frameworks": "Frameworks",
+      "tools": "Herramientas",
+      "others": "Otros",
+      "softskills": "Habilidades Blandas"
+    },
+    "softskillsList": {
+      "communication": "Comunicación",
+      "teamwork": "Trabajo en Equipo",
+      "problemSolving": "Resolución de Problemas",
+      "adaptability": "Adaptabilidad",
+      "timeManagement": "Gestión del Tiempo",
+      "creativity": "Creatividad"
+    },
+    "showMore": "Mostrar Más",
+    "showLess": "Mostrar Menos"
+  },
+  "projects": {
+    "title": "Proyectos destacados",
+    "subtitle": "Explorando los límites del desarrollo moderno",
+    "numberLabel": "PROYECTO",
+    "technologiesLabel": "Tecnologías Utilizadas",
+    "seeCode": "Código Fuente",
+    "seeLive": "Ver Demo",
+    "allFilter": "Todos",
+    "techFilter": "Tecnologías",
+    "filterCat": {
+        "web": "Web",
+        "mobile": "Mobile"
+    },
+    "noResults": "No se encontraron proyectos con ese filtro",
+    "showMore": "Ver Más",
+    "showLess": "Ver Menos",
+    "placeholder": {
+        "title": "Más proyectos en camino",
+        "text": "Estoy trabajando en nuevos proyectos que serán añadidos próximamente.",
+        "badge": "EN DESARROLLO"
+    },
+    "items": {
+      "ecocrop": {
+        "description": "Landing page que presenta y comunica las funcionalidades, objetivos y beneficios de EcoCrop como solución digital para el control de plagas y la agricultura sostenible.",
+        "status": "PRODUCCIÓN"
+      },
+      "skillshare": {
+        "description": "Aplicación de red social educativa que conecta estudiantes con intereses académicos similares, facilitando la creación de grupos de estudio, la colaboración en tiempo real y el intercambio de recursos para potenciar el aprendizaje colaborativo.",
+        "status": "PRODUCCIÓN"
+      },
+      "livria": {
+        "description": "Tienda digital de libros que permite comprar ejemplares físicos, ebooks y audiolibros, integrando una comunidad de lectores donde los usuarios pueden interactuar, chatear y compartir recomendaciones.",
+        "status": "ACTIVO"
+      },
+      "fym": {
+        "description": "Aplicación web para explorar un catálogo de películas y series de televisión. Detalles, tráileres, información del reparto, escenas, distribuidores y mucho más.",
+        "status": "PRODUCCIÓN"
+      }
+    }
+  },
+  "education": {
+    "badge": "Formación Académica",
+    "title": "Educación &",
+    "titleHighlight": "Certificaciones",
+    "subtitle": "Mi trayectoria académica y de formación continua en ingeniería de software, seguridad y tecnologías modernas.",
+    "status": {
+      "ongoing": "En Curso",
+      "completed": "Completado"
+    },
+    "skills": "Habilidades",
+    "viewCertificate": "Ver Certificado",
+    "items": {
+      "ubiobio-2025": {
+        "description": "Programa especializado en el Ciclo de Vida del Desarrollo de Software Seguro (SSDLC), enfocado en la integración de prácticas de seguridad desde el análisis de requisitos hasta el despliegue y mantenimiento, aplicando principios de DevSecOps.",
+        "skills": [
+          "DevSecOps",
+          "Seguridad de Software",
+          "SSDLC",
+          "Gestión de Riesgos",
+          "Buenas Prácticas de Seguridad"
+        ]
+      },
+      "mongodb-udemy-2024": {
+        "description": "Curso completo sobre MongoDB orientado al diseño, consulta y optimización de bases de datos NoSQL, cubriendo desde conceptos fundamentales hasta operaciones avanzadas y modelado de datos.",
+        "skills": [
+          "MongoDB",
+          "NoSQL",
+          "Modelado de Datos",
+          "Consultas Avanzadas",
+          "Optimización de Bases de Datos"
+        ]
+      },
+      "mongodb-intro-2024": {
+        "description": "Curso introductorio que proporciona los fundamentos de MongoDB, incluyendo estructura de documentos, colecciones, consultas básicas y conceptos esenciales de bases de datos NoSQL.",
+        "skills": [
+          "MongoDB Básico",
+          "NoSQL",
+          "CRUD",
+          "Bases de Datos"
+        ]
+      },
+      "scrum-2024": {
+        "description": "Certificación en fundamentos de Scrum enfocada en metodologías ágiles, roles, eventos y artefactos, orientada a la gestión eficiente de proyectos de desarrollo de software.",
+        "skills": [
+          "Scrum",
+          "Metodologías Ágiles",
+          "Gestión de Proyectos",
+          "Trabajo en Equipo"
+        ]
+      },
+      "upc-2023": {
+        "description": "Carrera universitaria de Ingeniería de Software orientada al diseño, desarrollo y mantenimiento de soluciones tecnológicas, con énfasis en arquitectura de software, desarrollo backend y aplicaciones móviles.",
+        "skills": [
+          "Ingeniería de Software",
+          "Arquitectura de Software",
+          "Backend",
+          "Desarrollo Móvil",
+          "Bases de Datos"
+        ]
+      },
+      "hacking-2022": {
+        "description": "Curso de Hacking Ético enfocado en la identificación de vulnerabilidades, pruebas de penetración y fundamentos de ciberseguridad, aplicando técnicas ofensivas con enfoque defensivo.",
+        "skills": [
+          "Hacking Ético",
+          "Ciberseguridad",
+          "Pentesting",
+          "Análisis de Vulnerabilidades"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "badge": "¡Trabajemos juntos!",
+    "title": "¿Tienes un proyecto en mente?",
+    "titleHighlight": "Conversemos",
+    "subtitle": "Estoy disponible para nuevos proyectos y colaboraciones. No dudes en contactarme y trabajar juntos en algo increíble.",
+    "email": {
+      "title": "Correo Electrónico",
+      "description": "Respondo en menos de 24 horas",
+      "action": "Enviar Email"
+    },
+    "phone": {
+      "title": "Teléfono",
+      "description": "Lun a Vie de 9am a 6pm",
+      "action": "Llamar Ahora"
+    },
+    "location": {
+      "title": "Ubicación",
+      "description": "Lima, Perú - GMT-5",
+      "action": "Ver en Mapa"
+    },
+    "social": {
+      "title": "Encuéntrame en redes sociales"
+    },
+    "availability": {
+      "label": "Tiempo de respuesta",
+      "value": "Usualmente dentro de 24 horas"
+    },
+    "form": {
+      "title": "Envíame un mensaje",
+      "description": "Completa el formulario y me pondré en contacto contigo lo antes posible.",
+      "name": "Nombre completo",
+      "email": "Correo electrónico",
+      "subject": "Asunto",
+      "message": "Mensaje",
+      "submit": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado exitosamente! Te responderé pronto.",
+      "error": "Hubo un error al enviar el mensaje. Por favor, intenta de nuevo.",
+      "errors": {
+        "nameRequired": "El nombre es requerido",
+        "nameMin": "El nombre debe tener al menos 2 caracteres",
+        "emailRequired": "El correo electrónico es requerido",
+        "emailInvalid": "Por favor, ingresa un correo válido",
+        "subjectRequired": "El asunto es requerido",
+        "messageRequired": "El mensaje es requerido",
+        "messageMin": "El mensaje debe tener al menos 10 caracteres"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Desarrollador web y móvil apasionado por crear experiencias digitales excepcionales. Transformando ideas en código limpio y funcional.",
+    "available": "Disponible para oportunidades",
+    "navigation": "Navegación",
+    "quickLinks": "Enlaces Rápidos",
+    "contact": "Contacto",
+    "resume": "Currículum",
+    "contactLabels": {
+        "email": "Correo Electrónico",
+        "location": "Ubicación",
+        "phone": "Teléfono"
+    },
+    "rights": "Todos los derechos reservados."
+  }
+}

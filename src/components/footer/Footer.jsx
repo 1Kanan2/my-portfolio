@@ -1,0 +1,100 @@
+import React from 'react';
+import {useTranslation} from 'react-i18next';
+import {Icon} from '@iconify/react';
+import {ASSETS, NAV_LINKS} from '../../utils/constants';
+import { downloadFile } from '../../utils/helpers';
+import FooterLink from './FooterLink';
+import SocialLinks from './SocialLinks';
+import ContactInfo from './ContactInfo';
+import logo from '../../assets/logo/elephant-logo.svg';
+import './Footer.css';
+
+const Footer = () => {
+    const {t} = useTranslation();
+    const currentYear = new Date().getFullYear();
+
+    const handleDownloadCV = (e) => {
+        e.preventDefault();
+        downloadFile(ASSETS.CV_PATH, ASSETS.CV_NAME);
+    };
+
+    const quickLinks = [
+        {
+            id: 'resume',
+            label: t('footer.resume'),
+            onClick: handleDownloadCV,
+            href: '#'
+        },
+    ];
+
+    return (<footer className="footer">
+            <div className="footer-container">
+                <div className="footer-content">
+                    <div className="footer-brand">
+                        <div className="footer-logo">
+                            <img src={logo} alt="Jhosep Logo" className="logo-image"/>
+                            <span className="footer-logo-text">Jhosep Argomedo</span>
+                        </div>
+                        <p className="footer-tagline">{t('footer.tagline')}</p>
+                        <div className="footer-status">
+                            <span className="footer-status-dot"></span>
+                            <span className="footer-status-text">{t('footer.available')}</span>
+                        </div>
+                    </div>
+
+                    <div className="footer-section">
+                        <h3 className="footer-section-title">{t('footer.navigation')}</h3>
+                        <nav className="footer-nav">
+                            {NAV_LINKS.map((link, index) => (<FooterLink
+                                    key={link.id}
+                                    href={link.href}
+                                    label={t(link.key)}
+                                    delay={index * 0.05}
+                                />))}
+                        </nav>
+                    </div>
+
+                    <div className="footer-section">
+                        <h3 className="footer-section-title">{t('footer.quickLinks')}</h3>
+                        <nav className="footer-nav">
+                            {quickLinks.map((link, index) => (<FooterLink
+                                    key={link.id}
+                                    href={link.href}
+                                    label={link.label}
+                                    delay={index * 0.05}
+                                    onClick={link.onClick}
+                                />))}
+                        </nav>
+                    </div>
+
+                    <div className="footer-section">
+                        <h3 className="footer-section-title">{t('footer.contact')}</h3>
+                        <ContactInfo/>
+                    </div>
+                </div>
+
+                <div className="footer-divider">
+                    <div className="footer-divider-line"></div>
+                </div>
+
+                <div className="footer-bottom">
+                    <div className="footer-bottom-content">
+                        <p className="footer-copyright">
+                            © {currentYear} Jhosep Argomedo. {t('footer.rights')}
+                        </p>
+                        <SocialLinks/>
+                    </div>
+                </div>
+
+                <button
+                    className="scroll-to-top"
+                    onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}
+                    aria-label="Scroll to top"
+                >
+                    <Icon icon="mdi:chevron-up" width="24"/>
+                </button>
+            </div>
+        </footer>);
+};
+
+export default Footer;

@@ -1,0 +1,214 @@
+{
+  "loader": {
+    "message": "LOADING RESOURCES..."
+  },
+  "nav": {
+    "home": "Home",
+    "skills": "Skills",
+    "projects": "Projects",
+    "education": "Education",
+    "contact-me": "Contact me"
+  },
+  "hero": {
+    "status": "AVAILABLE FOR OPPORTUNITIES",
+    "greeting": "My name is",
+    "subtitle1": "Software Engineering Student - UPC",
+    "subtitle2": "Web Developer, Mobile Developer"
+  },
+  "skills": {
+    "title": "Skills",
+    "filters": {
+      "all": "All",
+      "languages": "Languages",
+      "databases": "Databases",
+      "frameworks": "Frameworks",
+      "tools": "Tools",
+      "others": "Others",
+      "softskills": "Soft Skills"
+    },
+    "softskillsList": {
+      "communication": "Communication",
+      "teamwork": "Teamwork",
+      "problemSolving": "Problem Solving",
+      "adaptability": "Adaptability",
+      "timeManagement": "Time Management",
+      "creativity": "Creativity"
+    },
+    "showMore": "Show More",
+    "showLess": "Show Less"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Exploring the boundaries of modern development",
+    "numberLabel": "PROJECT",
+    "technologiesLabel": "Technologies Used",
+    "seeCode": "Source Code",
+    "seeLive": "View Demo",
+    "allFilter": "All",
+    "techFilter": "Technologies",
+    "filterCat": {
+        "web": "Web",
+        "mobile": "Mobile"
+    },
+    "noResults": "No projects found matching this filter",
+    "showMore": "View More",
+    "showLess": "Show Less",
+    "placeholder": {
+        "title": "More projects on the way",
+        "text": "I'm working on new projects that will be added soon.",
+        "badge": "IN DEVELOPMENT"
+    },
+    "items": {
+      "ecocrop": {
+        "description": "Landing page that presents and communicates the features, goals, and benefits of EcoCrop as a digital solution for pest control and sustainable agriculture.",
+        "status": "PRODUCTION"
+      },
+      "skillshare": {
+        "description": "Educational social networking application that connects students with similar academic interests, enabling study group creation, real-time collaboration, and resource sharing to enhance collaborative learning.",
+        "status": "PRODUCTION"
+      },
+      "livria": {
+        "description": "Digital bookstore that allows users to purchase physical books, ebooks, and audiobooks, integrating a reader community where users can interact, chat, and share recommendations.",
+        "status": "ACTIVE"
+      },
+      "fym": {
+        "description": "Web application for exploring a catalog of movies and TV series. Details, trailers, cast information, scenes, distributors, and much more.",
+        "status": "PRODUCTION"
+      }
+    }
+  },
+  "education": {
+    "badge": "Academic Background",
+    "title": "Education &",
+    "titleHighlight": "Certifications",
+    "subtitle": "My academic journey and continuous training in software engineering, security, and modern technologies.",
+    "status": {
+      "ongoing": "Ongoing",
+      "completed": "Completed"
+    },
+    "skills": "Skills",
+    "viewCertificate": "View Certificate",
+    "items": {
+      "ubiobio-2025": {
+        "description": "Specialized program in the Secure Software Development Life Cycle (SSDLC), focused on integrating security practices from requirements analysis to deployment and maintenance, applying DevSecOps principles.",
+        "skills": [
+          "DevSecOps",
+          "Software Security",
+          "SSDLC",
+          "Risk Management",
+          "Security Best Practices"
+        ]
+      },
+      "mongodb-udemy-2024": {
+        "description": "Comprehensive MongoDB course focused on designing, querying, and optimizing NoSQL databases, covering fundamentals through advanced operations and data modeling.",
+        "skills": [
+          "MongoDB",
+          "NoSQL",
+          "Data Modeling",
+          "Advanced Queries",
+          "Database Optimization"
+        ]
+      },
+      "mongodb-intro-2024": {
+        "description": "Introductory course providing MongoDB fundamentals, including document structure, collections, basic queries, and essential NoSQL database concepts.",
+        "skills": [
+          "MongoDB Basics",
+          "NoSQL",
+          "CRUD",
+          "Databases"
+        ]
+      },
+      "scrum-2024": {
+        "description": "Certification in Scrum fundamentals focused on agile methodologies, roles, events, and artifacts, aimed at efficient software development project management.",
+        "skills": [
+          "Scrum",
+          "Agile Methodologies",
+          "Project Management",
+          "Teamwork"
+        ]
+      },
+      "upc-2023": {
+        "description": "Software Engineering degree focused on the design, development, and maintenance of technological solutions, with emphasis on software architecture, backend development, and mobile applications.",
+        "skills": [
+          "Software Engineering",
+          "Software Architecture",
+          "Backend",
+          "Mobile Development",
+          "Databases"
+        ]
+      },
+      "hacking-2022": {
+        "description": "Ethical Hacking course focused on vulnerability identification, penetration testing, and cybersecurity fundamentals, applying offensive techniques with a defensive mindset.",
+        "skills": [
+          "Ethical Hacking",
+          "Cybersecurity",
+          "Penetration Testing",
+          "Vulnerability Analysis"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "badge": "Let's work together!",
+    "title": "Have a project in mind?",
+    "titleHighlight": "Let's talk",
+    "subtitle": "I'm available for new projects and collaborations. Feel free to reach out and let's work together on something amazing.",
+    "email": {
+      "title": "Email",
+      "description": "I respond within 24 hours",
+      "action": "Send Email"
+    },
+    "phone": {
+      "title": "Phone",
+      "description": "Mon to Fri from 9am to 6pm",
+      "action": "Call Now"
+    },
+    "location": {
+      "title": "Location",
+      "description": "Lima, Peru - GMT-5",
+      "action": "View on Map"
+    },
+    "social": {
+      "title": "Find me on social media"
+    },
+    "availability": {
+      "label": "Response time",
+      "value": "Usually within 24 hours"
+    },
+    "form": {
+      "title": "Send me a message",
+      "description": "Fill out the form and I'll get back to you as soon as possible.",
+      "name": "Full name",
+      "email": "Email address",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully! I'll respond soon.",
+      "error": "There was an error sending the message. Please try again.",
+      "errors": {
+        "nameRequired": "Name is required",
+        "nameMin": "Name must be at least 2 characters",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Please enter a valid email",
+        "subjectRequired": "Subject is required",
+        "messageRequired": "Message is required",
+        "messageMin": "Message must be at least 10 characters"
+      }
+    }
+  },
+  "footer": {
+    "tagline": "Web and mobile developer passionate about creating exceptional digital experiences. Transforming ideas into clean, functional code.",
+    "available": "Available for opportunities",
+    "navigation": "Navigation",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "resume": "Resume",
+    "contactLabels": {
+        "email": "Email",
+        "location": "Location",
+        "phone": "Phone"
+    },
+    "rights": "All rights reserved."
+  }
+}
