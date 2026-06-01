@@ -90,8 +90,8 @@ export const EDUCATION_DATA = [{
     color: '#10b981'
 }, {
     id: 'scrum-2024',
-    year: '2024',
-    date: '29/04/2024',
+    year: '2023',
+    date: '04/06/2023',
     title: 'Curso: Scrum Fundamentals Certified',
     institution: 'SCRUMstudy',
     type: 'certification',
