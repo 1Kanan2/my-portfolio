@@ -63,7 +63,9 @@ export const SKILLS_DATA = {
         id: 'problemSolving', icon: 'mdi:lightbulb-on-outline', iconType: 'iconify', color: '#f6d365'
     }, {id: 'adaptability', icon: 'mdi:cached', iconType: 'iconify', color: '#a1c4fd'}, {
         id: 'timeManagement', icon: 'mdi:clock-outline', iconType: 'iconify', color: '#d4fc79'
-    }, {id: 'creativity', icon: 'mdi:palette-outline', iconType: 'iconify', color: '#84fab0'}]
+    }, {id: 'creativity', icon: 'mdi:palette-outline', iconType: 'iconify', color: '#84fab0'}, {
+        id: 'interculturalCommunication', icon: 'mdi:earth', iconType: 'iconify', color: '#3b82f6'
+    }]
 };
 
 export const CONTACT_DATA = [{
