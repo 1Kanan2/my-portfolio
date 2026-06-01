@@ -20,11 +20,11 @@ export const SOCIAL_ICONS = {
 };
 
 export const SOCIAL_LINKS = [{
-    id: 'github', name: 'GitHub', url: 'https://github.com/JhosepAC', color: '#ffffff'
-}, {id: 'linkedin', name: 'LinkedIn', url: 'https://linkedin.com/in/jhosep-ac', color: '#0077b5'}, {
-    id: 'email', name: 'Email', url: 'mailto:jhosepjamil@gmail.com', color: '#ea4335'
-}, {id: 'instagram', name: 'Instagram', url: 'https://instagram.com/jh_slin', color: '#e4405f'}, {
-    id: 'whatsapp', name: 'WhatsApp', url: 'https://wa.me/+51978777386', color: '#25D366'
+    id: 'github', name: 'GitHub', url: 'https://github.com/1Kanan2', color: '#ffffff'
+}, {id: 'linkedin', name: 'LinkedIn', url: 'https://www.linkedin.com/in/keyner-hancco-869037315/', color: '#0077b5'}, {
+    id: 'email', name: 'Email', url: 'mailto:keynerivan@outlook.com', color: '#ea4335'
+}, {id: 'instagram', name: 'Instagram', url: 'https://www.instagram.com/knhco_', color: '#e4405f'}, {
+    id: 'whatsapp', name: 'WhatsApp', url: 'https://wa.me/+51948646060', color: '#25D366'
 }];
 
 export const SKILLS_DATA = {
@@ -69,11 +69,11 @@ export const SKILLS_DATA = {
 };
 
 export const CONTACT_DATA = [{
-    id: 'email', icon: 'mdi:email-outline', value: 'jhosepjamil@gmail.com', href: 'mailto:jhosepjamil@gmail.com'
+    id: 'email', icon: 'mdi:email-outline', value: 'keynerivan@outlook.com', href: 'mailto:keynerivan@outlook.com'
 }, {
     id: 'location', icon: 'mdi:map-marker-outline', value: 'Lima, Perú', href: null
 }, {
-    id: 'phone', icon: 'mdi:phone-outline', value: '+51 978 777 386', href: 'tel:+51978777386',
+    id: 'phone', icon: 'mdi:phone-outline', value: '+51 948646060', href: 'tel:+51948646060',
 }];
 
 export const CONTACT_CONFIG = {

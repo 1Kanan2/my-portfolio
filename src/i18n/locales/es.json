@@ -138,7 +138,7 @@
     "subtitle": "Estoy disponible para nuevos proyectos y colaboraciones. No dudes en contactarme y trabajar juntos en algo increíble.",
     "email": {
       "title": "Correo Electrónico",
-      "description": "Respondo en menos de 24 horas",
+      "description": "Usualmente dentro de 12 horas",
       "action": "Enviar Email"
     },
     "phone": {
@@ -156,7 +156,7 @@
     },
     "availability": {
       "label": "Tiempo de respuesta",
-      "value": "Usualmente dentro de 24 horas"
+      "value": "Usualmente dentro de 12 horas"
     },
     "form": {
       "title": "Envíame un mensaje",
@@ -181,7 +181,7 @@
     }
   },
   "footer": {
-    "tagline": "Desarrollador web y móvil apasionado por crear experiencias digitales excepcionales. Transformando ideas en código limpio y funcional.",
+    "tagline": "Desarrollador web apasionado por crear experiencias digitales excepcionales. Transformando ideas en código limpio y funcional.",
     "available": "Disponible para oportunidades",
     "navigation": "Navegación",
     "quickLinks": "Enlaces Rápidos",

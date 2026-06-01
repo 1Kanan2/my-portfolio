@@ -174,7 +174,7 @@
     },
     "availability": {
       "label": "Response time",
-      "value": "Usually within 24 hours"
+      "value": "Usually within 12 hours"
     },
     "form": {
       "title": "Send me a message",
@@ -199,7 +199,7 @@
     }
   },
   "footer": {
-    "tagline": "Web and mobile developer passionate about creating exceptional digital experiences. Transforming ideas into clean, functional code.",
+    "tagline": "Web developer passionate about creating exceptional digital experiences. Transforming ideas into clean, functional code.",
     "available": "Available for opportunities",
     "navigation": "Navigation",
     "quickLinks": "Quick Links",
