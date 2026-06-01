@@ -121,6 +121,6 @@ export const EDUCATION_DATA = [{
     type: 'course',
     status: 'completed',
     iconType: 'language',
-    color: '#670010',
+    color: '#FB2943',
     endDate: '23/12/2022'
 }];

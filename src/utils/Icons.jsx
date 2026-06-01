@@ -103,12 +103,27 @@ export const EDUCATION_ICONS = {
         </svg>
     ),
     LANGUAGE: (
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <rect x="3" y="4" width="18" height="14" rx="1" ry="1" fill="#012169"/>
-            <path d="M3 10h18M12 4v14" stroke="white" strokeWidth="1.2"/>
-            <path d="M3 4l18 14M21 4l-18 14" stroke="white" strokeWidth="1.4"/>
-            <path d="M11.5 4v14M3 9.5h18" stroke="#C41E3A" strokeWidth="0.8"/>
-        </svg>
+<svg width="20" height="18" viewBox="0 0 100 88" fill="none">
+  <path
+    d="M14,4 H86 Q96,4 96,14 V58 Q96,68 86,68 H42 L28,82 L30,68 H14 Q4,68 4,58 V14 Q4,4 14,4 Z"
+    stroke="currentColor"
+    strokeWidth="5.5"
+    strokeLinejoin="round"
+    strokeLinecap="round"
+  />
+  <text
+    x="51" y="38"
+    textAnchor="middle"
+    dominantBaseline="central"
+    fontFamily="system-ui, sans-serif"
+    fontSize="28"
+    fontWeight="700"
+    letterSpacing="4"
+    fill="currentColor"
+  >
+    EN
+  </text>
+</svg>
     )
 };
 
