@@ -33,7 +33,7 @@ const Footer = () => {
                     <div className="footer-brand">
                         <div className="footer-logo">
                             <img src={logo} alt="Jhosep Logo" className="logo-image"/>
-                            <span className="footer-logo-text">Jhosep Argomedo</span>
+                            <span className="footer-logo-text">Keyner Hancco</span>
                         </div>
                         <p className="footer-tagline">{t('footer.tagline')}</p>
                         <div className="footer-status">
@@ -80,7 +80,7 @@ const Footer = () => {
                 <div className="footer-bottom">
                     <div className="footer-bottom-content">
                         <p className="footer-copyright">
-                            © {currentYear} Jhosep Argomedo. {t('footer.rights')}
+                            © {currentYear} Keyner Hancco. {t('footer.rights')}
                         </p>
                         <SocialLinks/>
                     </div>

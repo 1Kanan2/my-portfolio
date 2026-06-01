@@ -76,7 +76,7 @@ const Home = () => {
                     <header>
                         <h1 className="hero-title">
                             <span className="title-line">{t('hero.greeting')}</span>
-                            <span className="title-name">Jhosep Argomedo</span>
+                            <span className="title-name">Keyner Hancco</span>
                         </h1>
 
                         <div className="hero-subtitle">
