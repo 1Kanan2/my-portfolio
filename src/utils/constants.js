@@ -45,9 +45,9 @@ export const SKILLS_DATA = {
     }, {name: 'Tailwind', icon: 'headlessui', color: '#66e3ff'}],
     tools: [{name: 'GitHub', icon: 'github', color: '#ffffff'}, {
         name: 'Git', icon: 'git', color: '#f05032'
-    }, {name: 'Linux', icon: 'linux', color: '#fcc624'}, {
+    }, {
         name: 'Azure', icon: 'azure', color: '#0078d4'
-    }, {name: 'Android Studio', icon: 'androidstudio', color: '#3ddc84'}, {
+    }, {
         name: 'Figma', icon: 'figma', color: '#a259ff'
     },],
     others: [{

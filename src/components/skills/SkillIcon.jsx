@@ -16,9 +16,7 @@ const DEVICON_MAP = {
     github: 'devicon-github-original',
     figma: 'devicon-figma-plain',
     headlessui: 'devicon-tailwindcss-plain',
-    linux: 'devicon-linux-plain',
     mongodb: 'devicon-mongodb-plain',
-    androidstudio: 'devicon-androidstudio-plain',
     react: 'devicon-react-plain',
     html: 'devicon-html5-plain',
     git: 'devicon-git-plain'
