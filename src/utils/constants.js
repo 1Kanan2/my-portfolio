@@ -1,5 +1,4 @@
 import cvFile from '../assets/docs/JHOSEP_JAMIL-ARGOMEDO_CAMACHO-CV.pdf';
-import certificateSDLC from '../assets/docs/CERT-CICLO_DE_VIDA_DEL_DESARROLLO_DE_SOFTWARE_SEGURO.pdf';
 import certificateSCRUM from '../assets/docs/CERT-SCRUM_FUNDAMENTALS.pdf';
 
 export const ASSETS = {
@@ -80,28 +79,6 @@ export const CONTACT_CONFIG = {
 };
 
 export const EDUCATION_DATA = [{
-    id: 'ubiobio-2025',
-    year: '2025',
-    date: '28/02/2025',
-    title: 'Ciclo de Vida del Desarrollo de Software Seguro',
-    institution: 'Universidad del BíoBío',
-    location: 'Chile - Perú',
-    type: 'university',
-    status: 'completed',
-    iconType: 'university',
-    certificate: certificateSDLC,
-    color: '#f97316'
-}, {
-    id: 'mongodb-udemy-2024',
-    year: '2024',
-    date: '08/11/2024',
-    title: 'Curso: Guía completa MongoDB',
-    institution: 'Udemy',
-    type: 'course',
-    status: 'completed',
-    iconType: 'course',
-    color: '#10b981'
-}, {
     id: 'mongodb-intro-2024',
     year: '2024',
     date: '10/06/2024',
@@ -135,13 +112,15 @@ export const EDUCATION_DATA = [{
     color: '#8b5cf6',
     endDate: 'Actualidad'
 }, {
-    id: 'hacking-2022',
+    id: 'english-2022',
     year: '2022',
-    date: '14/08/2022',
-    title: 'Curso: Hacking Ético',
-    institution: 'Escuela Americana de Innovación',
+    date: '07/01/2022',
+    title: 'Inglés Avanzado (CEFR C1)',
+    institution: 'Asociación Cultural Peruano Británica (BRITÁNICO)',
+    location: 'Lima, Perú',
     type: 'course',
     status: 'completed',
-    iconType: 'shield',
-    color: '#ef4444'
+    iconType: 'language',
+    color: '#670010',
+    endDate: '23/12/2022'
 }];
