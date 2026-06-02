@@ -64,16 +64,12 @@
         "description": "Landing page que presenta y comunica las funcionalidades, objetivos y beneficios de EcoCrop como solución digital para el control de plagas y la agricultura sostenible.",
         "status": "PRODUCCIÓN"
       },
-      "skillshare": {
-        "description": "Aplicación de red social educativa que conecta estudiantes con intereses académicos similares, facilitando la creación de grupos de estudio, la colaboración en tiempo real y el intercambio de recursos para potenciar el aprendizaje colaborativo.",
+      "optimizador": {
+        "description": "Aplicación web de alto rendimiento que modela la red de salud nacional como un grafo de 1,724 nodos. Ejecuta algoritmos de Dijkstra y MST directamente en el navegador mediante una arquitectura zero-backend, optimizando rutas médicas críticas en menos de 3 segundos.",
         "status": "PRODUCCIÓN"
       },
-      "livria": {
-        "description": "Tienda digital de libros que permite comprar ejemplares físicos, ebooks y audiolibros, integrando una comunidad de lectores donde los usuarios pueden interactuar, chatear y compartir recomendaciones.",
-        "status": "ACTIVO"
-      },
-      "fym": {
-        "description": "Aplicación web para explorar un catálogo de películas y series de televisión. Detalles, tráileres, información del reparto, escenas, distribuidores y mucho más.",
+      "hydrosmart": {
+        "description": "Landing page responsiva e internacionalizada (i18n) diseñada para una startup de eficiencia hídrica residencial. Comunica de forma intuitiva soluciones digitales de monitoreo en tiempo real y detección temprana de fugas, optimizando el embudo de conversión para propietarios e inquilinos.",
         "status": "PRODUCCIÓN"
       }
     }

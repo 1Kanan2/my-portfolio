@@ -64,16 +64,12 @@
         "description": "Landing page that presents and communicates the features, goals, and benefits of EcoCrop as a digital solution for pest control and sustainable agriculture.",
         "status": "PRODUCTION"
       },
-      "skillshare": {
-        "description": "Educational social networking application that connects students with similar academic interests, enabling study group creation, real-time collaboration, and resource sharing to enhance collaborative learning.",
+      "optimizador": {
+        "description": "High-performance web application that models the national health network as a graph of 1,724 nodes. Executes Dijkstra and MST algorithms directly in the browser through a zero-backend architecture, optimizing critical medical routes in less than 3 seconds.",
         "status": "PRODUCTION"
       },
-      "livria": {
-        "description": "Digital bookstore that allows users to purchase physical books, ebooks, and audiobooks, integrating a reader community where users can interact, chat, and share recommendations.",
-        "status": "ACTIVE"
-      },
-      "fym": {
-        "description": "Web application for exploring a catalog of movies and TV series. Details, trailers, cast information, scenes, distributors, and much more.",
+      "hydrosmart": {
+        "description": "Responsive and internationalized (i18n) landing page designed for a residential water efficiency startup. Intuitively communicates digital solutions for real-time monitoring and early leak detection, optimizing the conversion funnel for homeowners and tenants.",
         "status": "PRODUCTION"
       }
     }
