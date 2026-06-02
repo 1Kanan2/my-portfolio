@@ -88,6 +88,8 @@
     "items": {
 
       "mongodb-intro-2024": {
+        "title": "Curso: Introduction to MongoDB",
+        "institution": "learn.mongodb.com",
         "description": "Curso introductorio que proporciona los fundamentos de MongoDB, incluyendo estructura de documentos, colecciones, consultas básicas y conceptos esenciales de bases de datos NoSQL.",
         "skills": [
           "MongoDB Básico",
@@ -97,6 +99,8 @@
         ]
       },
       "scrum-2024": {
+        "title": "Curso: Scrum Fundamentals Certified",
+        "institution": "SCRUMstudy",
         "description": "Certificación en fundamentos de Scrum enfocada en metodologías ágiles, roles, eventos y artefactos, orientada a la gestión eficiente de proyectos de desarrollo de software.",
         "skills": [
           "Scrum",
@@ -106,6 +110,10 @@
         ]
       },
       "upc-2023": {
+        "title": "Ingeniería de Software",
+        "institution": "Universidad Peruana de Ciencias Aplicadas",
+        "location": "Lima, Perú",
+        "endDate": "Actualidad",
         "description": "Carrera universitaria de Ingeniería de Software orientada al diseño, desarrollo y mantenimiento de soluciones tecnológicas, con énfasis en arquitectura de software, desarrollo backend y aplicaciones móviles.",
         "skills": [
           "Ingeniería de Software",
@@ -116,6 +124,9 @@
         ]
       },
       "english-2022": {
+        "title": "Inglés Avanzado (CEFR C1)",
+        "institution": "Asociación Cultural Peruano Británica (BRITÁNICO)",
+        "location": "Lima, Perú",
         "description": "Programa de formación integral que abarca la culminación satisfactoria de todas las fases de estudio (Básico, Intermedio y Avanzado), orientado al dominio lingüístico de nivel profesional, con un fuerte énfasis en la fluidez comunicativa en entornos internacionales, comprensión auditiva crítica y redacción académica.",
         "skills": [
           "Inglés C1",
@@ -188,6 +199,7 @@
         "location": "Ubicación",
         "phone": "Teléfono"
     },
+    "copy": "Copiar al portapapeles",
     "rights": "Todos los derechos reservados."
   }
 }

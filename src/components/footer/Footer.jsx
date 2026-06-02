@@ -32,7 +32,7 @@ const Footer = () => {
                 <div className="footer-content">
                     <div className="footer-brand">
                         <div className="footer-logo">
-                            <img src={logo} alt="Jhosep Logo" className="logo-image"/>
+                            <img src={logo} alt="Keyner Logo" className="logo-image"/>
                             <span className="footer-logo-text">Keyner Hancco</span>
                         </div>
                         <p className="footer-tagline">{t('footer.tagline')}</p>

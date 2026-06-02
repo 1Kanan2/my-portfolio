@@ -36,7 +36,7 @@ const Navbar = ({ theme, toggleTheme }) => {
         <nav className={`navbar ${scrolled ? 'scrolled' : ''} ${isMenuOpen ? 'menu-open' : ''}`}>
             <div className="navbar-container">
                 <div className="navbar-logo">
-                    <img src={logo} alt="Jhosep Logo" className="logo-image" />
+                    <img src={logo} alt="Keyner Logo" className="logo-image" />
                 </div>
 
                 {isMenuOpen && <div className="menu-overlay" onClick={closeMenu} />}

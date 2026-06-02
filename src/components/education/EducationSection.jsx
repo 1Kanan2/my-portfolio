@@ -11,9 +11,17 @@ const EducationSection = () => {
 
     const educationItems = useMemo(() => EDUCATION_DATA.map(item => {
         const translatedSkills = t(`education.items.${item.id}.skills`, {returnObjects: true});
+        const translatedTitle = t(`education.items.${item.id}.title`, {defaultValue: item.title});
+        const translatedInstitution = t(`education.items.${item.id}.institution`, {defaultValue: item.institution});
+        const translatedLocation = t(`education.items.${item.id}.location`, {defaultValue: item.location});
+        const translatedEndDate = t(`education.items.${item.id}.endDate`, {defaultValue: item.endDate});
 
         return {
             ...item,
+            title: translatedTitle,
+            institution: translatedInstitution,
+            location: translatedLocation,
+            endDate: translatedEndDate,
             description: t(`education.items.${item.id}.description`),
             skills: Array.isArray(translatedSkills) ? translatedSkills : []
         };

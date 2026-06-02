@@ -107,6 +107,8 @@
         ]
       },
       "mongodb-intro-2024": {
+        "title": "Course: Introduction to MongoDB",
+        "institution": "learn.mongodb.com",
         "description": "Introductory course providing MongoDB fundamentals, including document structure, collections, basic queries, and essential NoSQL database concepts.",
         "skills": [
           "MongoDB Basics",
@@ -116,6 +118,8 @@
         ]
       },
       "scrum-2024": {
+        "title": "Course: Scrum Fundamentals Certified",
+        "institution": "SCRUMstudy",
         "description": "Certification in Scrum fundamentals focused on agile methodologies, roles, events, and artifacts, aimed at efficient software development project management.",
         "skills": [
           "Scrum",
@@ -125,6 +129,10 @@
         ]
       },
       "upc-2023": {
+        "title": "Software Engineering",
+        "institution": "Universidad Peruana de Ciencias Aplicadas",
+        "location": "Lima, Peru",
+        "endDate": "Present",
         "description": "Software Engineering degree focused on the design, development, and maintenance of technological solutions, with emphasis on software architecture, backend development, and mobile applications.",
         "skills": [
           "Software Engineering",
@@ -141,6 +149,19 @@
           "Cybersecurity",
           "Penetration Testing",
           "Vulnerability Analysis"
+        ]
+      },
+      "english-2022": {
+        "title": "Advanced English (CEFR C1)",
+        "institution": "Peruvian British Cultural Association (BRITÁNICO)",
+        "location": "Lima, Peru",
+        "description": "Comprehensive training program covering all study phases (Basic, Intermediate, and Advanced), aimed at professional-level linguistic mastery with strong emphasis on communicative fluency in international settings, critical listening comprehension, and academic writing.",
+        "skills": [
+          "English C1",
+          "Academic Writing",
+          "Fluent Communication",
+          "Listening Comprehension",
+          "Global Settings"
         ]
       }
     }

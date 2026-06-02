@@ -1,8 +1,8 @@
-import cvFile from '../assets/docs/JHOSEP_JAMIL-ARGOMEDO_CAMACHO-CV.pdf';
+import cvFile from '../assets/docs/KEYNER_HANCCO-CV.pdf';
 import certificateSCRUM from '../assets/docs/CERT-SCRUM_FUNDAMENTALS.pdf';
 
 export const ASSETS = {
-    CV_PATH: cvFile, CV_NAME: 'JHOSEP_ARGOMEDO-CV.pdf'
+    CV_PATH: cvFile, CV_NAME: 'KEYNER_HANCCO-CV.pdf'
 };
 
 export const NAV_LINKS = [{id: 'home', key: 'nav.home', href: '#home'}, {
