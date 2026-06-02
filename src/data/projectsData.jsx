@@ -12,8 +12,8 @@ import {
     SiTailwindcss,
 } from 'react-icons/si';
 import ecoCropImg from '../assets/projects/green_sprout_innovations-ecocrop.png';
-import optimizadorImg from '../assets/projects/optimizador-rutas-referencias-medicas.png';
-import hydrosmartImg from '../assets/projects/hydrosmart-landing-page.png';
+import optimizadorImg from '../assets/projects/optimizador-rutas-referencias-medicas.PNG';
+import hydrosmartImg from '../assets/projects/hydrosmart-landing-page.PNG';
 import React from "react";
 
 export const PROJECTS_DATA = [{
