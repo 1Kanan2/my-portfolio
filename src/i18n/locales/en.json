@@ -13,7 +13,7 @@
     "status": "AVAILABLE FOR OPPORTUNITIES",
     "greeting": "My name is",
     "subtitle1": "Software Engineering Student - UPC",
-    "subtitle2": "Web Developer, Mobile Developer"
+    "subtitle2": "Web/Frontend Developer"
   },
   "skills": {
     "title": "Skills",
@@ -108,8 +108,8 @@
       },
       "mongodb-intro-2024": {
         "title": "Course: Introduction to MongoDB",
-        "institution": "learn.mongodb.com",
-        "description": "Introductory course providing MongoDB fundamentals, including document structure, collections, basic queries, and essential NoSQL database concepts.",
+        "institution": "learn.mongodb.com",        "location": "",
+        "endDate": "",        "description": "Introductory course providing MongoDB fundamentals, including document structure, collections, basic queries, and essential NoSQL database concepts.",
         "skills": [
           "MongoDB Basics",
           "NoSQL",
@@ -120,6 +120,8 @@
       "scrum-2024": {
         "title": "Course: Scrum Fundamentals Certified",
         "institution": "SCRUMstudy",
+        "location": "",
+        "endDate": "",
         "description": "Certification in Scrum fundamentals focused on agile methodologies, roles, events, and artifacts, aimed at efficient software development project management.",
         "skills": [
           "Scrum",

@@ -13,7 +13,7 @@
     "status": "DISPONIBLE PARA OPORTUNIDADES",
     "greeting": "Mi nombre es",
     "subtitle1": "Estudiante de Ingeniería de Software - UPC",
-    "subtitle2": "Desarrollador Web, Desarrollador Móvil"
+    "subtitle2": "Desarrollador Web/Frontend"
   },
   "skills": {
     "title": "Habilidades",
@@ -78,7 +78,7 @@
     "badge": "Formación Académica",
     "title": "Educación &",
     "titleHighlight": "Certificaciones",
-    "subtitle": "Mi trayectoria académica y de formación continua en ingeniería de software, seguridad y tecnologías modernas.",
+    "subtitle": "Mi trayectoria académica y de formación continua en ingeniería de software, tecnologías y metodologías modernas e inglés.",
     "status": {
       "ongoing": "En Curso",
       "completed": "Completado"
@@ -90,6 +90,8 @@
       "mongodb-intro-2024": {
         "title": "Curso: Introduction to MongoDB",
         "institution": "learn.mongodb.com",
+        "location": "",
+        "endDate": "",
         "description": "Curso introductorio que proporciona los fundamentos de MongoDB, incluyendo estructura de documentos, colecciones, consultas básicas y conceptos esenciales de bases de datos NoSQL.",
         "skills": [
           "MongoDB Básico",
@@ -101,6 +103,8 @@
       "scrum-2024": {
         "title": "Curso: Scrum Fundamentals Certified",
         "institution": "SCRUMstudy",
+        "location": "",
+        "endDate": "",
         "description": "Certificación en fundamentos de Scrum enfocada en metodologías ágiles, roles, eventos y artefactos, orientada a la gestión eficiente de proyectos de desarrollo de software.",
         "skills": [
           "Scrum",
