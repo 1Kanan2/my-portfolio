@@ -30,7 +30,7 @@ export const SOCIAL_LINKS = [{
 export const SKILLS_DATA = {
     languages: [{name: 'JavaScript', icon: 'javascript', color: '#f7df1e'}, {
         name: 'Python', icon: 'python', color: '#3776ab'
-    }, {name: 'Flutter', icon: 'flutter', color: '#02569b'}, {
+    }, {
         name: 'C#', icon: 'csharp', color: '#239120'
     }, {name: 'HTML5', icon: 'html', color: '#e34f26'}, {
         name: 'CSS3', icon: 'css', color: '#2965f1'

@@ -1,7 +1,6 @@
 import {
     SiCplusplus,
     SiCss3,
-    SiFlutter,
     SiGit,
     SiHtml5,
     SiJavascript,

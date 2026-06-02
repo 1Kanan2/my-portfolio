@@ -4,7 +4,6 @@ import {Icon} from '@iconify/react';
 const DEVICON_MAP = {
     css: 'devicon-css3-plain',
     javascript: 'devicon-javascript-plain',
-    flutter: 'devicon-flutter-plain',
     python: 'devicon-python-plain',
     csharp: 'devicon-csharp-plain',
     java: 'devicon-java-plain',
