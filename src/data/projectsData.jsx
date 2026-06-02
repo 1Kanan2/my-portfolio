@@ -30,8 +30,8 @@ export const PROJECTS_DATA = [{
         {name: 'CSS3', icon: <SiCss3/>, color: '#2965F1'},
         {name: 'JavaScript', icon: <SiJavascript/>, color: '#F7DF1E'},
         {name: 'Git', icon: <SiGit/>, color: '#F05032'},],
-    github: 'https://github.com/GreenSprout-Innovations/greensprout-innovations.github.io',
-    live: 'https://greensprout-innovations.github.io/',
+    github: 'https://github.com/1Kanan2/EcoCrop-Landing-Page',
+    live: 'https://eco-crop-landing-page.vercel.app',
     labelTranslate: 'ecocrop'
 }, {
     id: 2,
