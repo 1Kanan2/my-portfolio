@@ -1,8 +1,15 @@
-import cvFile from '../assets/docs/Hancco Poma Keyner Ivan CV ES.pdf';
+import cvFileES from '../assets/docs/Hancco Poma Keyner Ivan CV ES.pdf';
+import cvFileEN from '../assets/docs/Hancco Poma Keyner Ivan CV EN.pdf';
 import certificateSCRUM from '../assets/docs/CERT-SCRUM_FUNDAMENTALS.pdf';
 
 export const ASSETS = {
-    CV_PATH: cvFile, CV_NAME: 'Hancco Poma Keyner Ivan CV ES.pdf'
+    CV_ES: cvFileES,
+    CV_EN: cvFileEN,
+    CV_NAME_ES: 'Hancco Poma Keyner Ivan CV ES.pdf',
+    CV_NAME_EN: 'Hancco Poma Keyner Ivan CV EN.pdf',
+    // Mantener compatibilidad con código antiguo
+    CV_PATH: cvFileES,
+    CV_NAME: 'Hancco Poma Keyner Ivan CV ES.pdf'
 };
 
 export const NAV_LINKS = [{id: 'home', key: 'nav.home', href: '#home'}, {

@@ -10,12 +10,17 @@ import logo from '../../assets/logo/kh-logo.png';
 import './Footer.css';
 
 const Footer = () => {
-    const {t} = useTranslation();
+    const { t, i18n } = useTranslation();
     const currentYear = new Date().getFullYear();
 
+    const { i18n } = useTranslation();
+    
     const handleDownloadCV = (e) => {
         e.preventDefault();
-        downloadFile(ASSETS.CV_PATH, ASSETS.CV_NAME);
+        const currentLang = i18n.language.split('-')[0];
+        const cvPath = currentLang === 'en' ? ASSETS.CV_EN : ASSETS.CV_ES;
+        const cvName = currentLang === 'en' ? ASSETS.CV_NAME_EN : ASSETS.CV_NAME_ES;
+        downloadFile(cvPath, cvName);
     };
 
     const quickLinks = [
