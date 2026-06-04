@@ -57,7 +57,7 @@ const Navbar = ({ theme, toggleTheme }) => {
                     <li className="mobile-actions">
                         <button onClick={toggleLanguage} className="lang-button">
                             <Globe size={18}/>
-                            <span>{i18n.language.toUpperCase()}</span>
+                            <span>{i18n.language.split('-')[0].toUpperCase()}</span>
                         </button>
                     </li>
                 </ul>
@@ -65,7 +65,7 @@ const Navbar = ({ theme, toggleTheme }) => {
                 <div className="navbar-actions">
                     <button onClick={toggleLanguage} className="lang-button desktop-only" aria-label="Language">
                         <Globe size={18}/>
-                        <span className="lang-text">{i18n.language.toUpperCase()}</span>
+                        <span className="lang-text">{i18n.language.split('-')[0].toUpperCase()}</span>
                     </button>
 
                     {/*
