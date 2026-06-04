@@ -12,8 +12,6 @@ import './Footer.css';
 const Footer = () => {
     const { t, i18n } = useTranslation();
     const currentYear = new Date().getFullYear();
-
-    const { i18n } = useTranslation();
     
     const handleDownloadCV = (e) => {
         e.preventDefault();
