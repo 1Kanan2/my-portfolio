@@ -84,6 +84,16 @@
     -webkit-line-clamp: unset;
 }
 
+/* ── Project note ── */
+.card-note {
+    font-size: 0.7rem;
+    font-style: italic;
+    color: #5a9fc0;
+    margin: 0;
+    line-height: 1.45;
+    opacity: 0.85;
+}
+
 /* ── Tech Stack compact ── */
 .card-tech .tech-label {
     display: none;

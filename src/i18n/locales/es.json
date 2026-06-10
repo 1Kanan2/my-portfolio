@@ -60,6 +60,10 @@
         "badge": "EN DESARROLLO"
     },
     "items": {
+      "finautoiq": {
+        "description": "Simulador de crédito vehicular peruano (UPC). Aplica el método francés con tasas nominales/efectivas, períodos de gracia y modalidad Compra Inteligente con cuota balón. Calcula VAN, TIR y TCEA según norma SBS. Gestión de clientes, vehículos y cronogramas de pago con autenticación segura.",
+        "status": "PRODUCCIÓN"
+      },
       "ecocrop": {
         "description": "Landing page que presenta y comunica las funcionalidades, objetivos y beneficios de EcoCrop como solución digital para el control de plagas y la agricultura sostenible.",
         "status": "PRODUCCIÓN"

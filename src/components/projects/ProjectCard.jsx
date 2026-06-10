@@ -27,6 +27,10 @@ const ProjectCard = ({ project, index }) => {
                     {project.description}
                 </p>
 
+                {project.note && (
+                    <p className="card-note">{project.note}</p>
+                )}
+
                 <div className="card-tech">
                     <TechStack technologies={project.technologies} />
                 </div>

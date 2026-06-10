@@ -60,6 +60,10 @@
         "badge": "IN DEVELOPMENT"
     },
     "items": {
+      "finautoiq": {
+        "description": "Peruvian vehicle credit simulator (UPC). Applies the French amortization method with nominal/effective rates, grace periods and Smart Purchase modality with balloon payment. Automatically calculates NPV, IRR and TCEA per SBS standards. Includes client management, vehicle tracking and secure payment schedules.",
+        "status": "PRODUCTION"
+      },
       "ecocrop": {
         "description": "Landing page that presents and communicates the features, goals, and benefits of EcoCrop as a digital solution for pest control and sustainable agriculture.",
         "status": "PRODUCTION"
